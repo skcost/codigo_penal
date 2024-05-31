@@ -1,0 +1,29 @@
+.formAlertWarning {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.form .formControl {
+    flex: 0.5;
+}
+
+.form .formControl button {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.form .formGroupCheckbox {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+}
